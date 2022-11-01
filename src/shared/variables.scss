@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+$width__mobile: 375px;
+$width__desktop: 1440px;
+
+$color__neutral--dark-blue: hsl(218, 44%, 22%);
+$color__neutral--grayish-blue: hsl(220, 15%, 55%);
+$color__neutral--white: hsl(0, 0%, 100%);
+$color__neutral--light-grey: hsl(212, 45%, 89%);
+
+$typography__font-size: 15px;
+
+$typography__font-family: "Outfit", sans-serif;
+
+$typography__font-weight--regular: 400;
+$typography__font-weight--bold: 700;
+
+@mixin mobile {
+  @media screen and (max-width: $width__mobile) {
+    @content;
+  }
+}

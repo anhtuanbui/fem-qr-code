@@ -1,0 +1,42 @@
+@import '../shared/variables.scss';
+
+main {
+    width: $width__desktop;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color__neutral--light-grey;
+    margin: auto;
+
+    @include mobile {
+        width: $width__mobile;
+        font-size: 11px;
+        padding: 2em;
+        box-sizing: border-box;
+    }
+}
+
+.card {
+    width: 428px;
+    max-width: 100%;
+    text-align: center;
+    background-color: $color__neutral--white;
+    padding: 1.5em;
+    border-radius: 2em;
+
+    &__qr-code {
+        img {
+            border-radius: 1em;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &__description {
+        font-size: 1.5em;
+        color: $color__neutral--grayish-blue;
+    }
+}
