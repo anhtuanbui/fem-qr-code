@@ -9,6 +9,7 @@ main {
     justify-content: center;
     background-color: $color__neutral--light-grey;
     margin: auto;
+    transition: 0.4s;
 
     @include mobile {
         width: $width__mobile;
