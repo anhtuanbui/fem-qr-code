@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fem-qr-code/static/css/main.febd50ae.css",
+    "main.js": "/fem-qr-code/static/js/main.6d679e22.js",
+    "static/js/787.bf125a00.chunk.js": "/fem-qr-code/static/js/787.bf125a00.chunk.js",
+    "index.html": "/fem-qr-code/index.html",
+    "main.febd50ae.css.map": "/fem-qr-code/static/css/main.febd50ae.css.map",
+    "main.6d679e22.js.map": "/fem-qr-code/static/js/main.6d679e22.js.map",
+    "787.bf125a00.chunk.js.map": "/fem-qr-code/static/js/787.bf125a00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.febd50ae.css",
+    "static/js/main.6d679e22.js"
+  ]
+}
